@@ -1,0 +1,38 @@
+[
+  {
+    "nama": "Salad Nusantara",
+    "harga": 25000,
+    "deskripsi": "Paduan sayuran hijau renyah, tomat cherry, dan jagung manis, disiram saus kacang khas.",
+    "url": "https://assets.epicurious.com/photos/60d0baca2162cdf71bb2d8db/1:1/w_2560%2Cc_limit/GadoGado_RECIPE_061721_18121.jpg"
+  },
+  {
+    "nama": "Nasi Merah Komplit",
+    "harga": 22000,
+    "deskripsi": "Nasi merah pulen disajikan dengan tempe bakar, lalapan segar, dan sambal rumahan.",
+    "url": "https://www.dapurkobe.co.id/wp-content/uploads/nasi-merah-gurih.jpg"
+  },
+  {
+    "nama": "Sup Labu Creamy",
+    "harga": 20000,
+    "deskripsi": "Sup labu kuning yang lembut dan gurih, cocok untuk hangatkan hari Anda.",
+    "url": "https://asset.kompas.com/crops/DjGeH13No_iCrq7EJJLCCnsfkig=/0x0:1000x667/1200x800/data/photo/2022/10/31/635f77d2608ce.jpg"
+  },
+  {
+    "nama": "Ayam Panggang Rempah",
+    "harga": 35000,
+    "deskripsi": "Potongan ayam kampung dipanggang dengan bumbu rempah harum, juicy dan lezat.",
+    "url": "https://d1uz88p17r663j.cloudfront.net/original/c9083eee3069c0ddf0a6ce11ef8567a9_AyamBakar.jpg"
+  },
+  {
+    "nama": "Urap Sayur",
+    "harga": 18000,
+    "deskripsi": "Sayur rebus dengan parutan kelapa berbumbu manis dan pedas, khas rumahan.",
+    "url": "https://cdn-1.timesmedia.co.id/images/2022/12/10/urap-urap.jpg"
+  },
+  {
+    "nama": "Tumis Brokoli Tahu",
+    "harga": 27000,
+    "deskripsi": "Brokoli segar dan tahu lembut ditumis dengan saus bawang putih khas oriental.",
+    "url": "https://img-global.cpcdn.com/recipes/0fe8397c295a1d21/400x400cq70/photo.jpg"
+  }
+]
