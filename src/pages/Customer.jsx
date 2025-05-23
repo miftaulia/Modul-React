@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CustomerData from "../assets/customers.json";
+import CustomerData from "../assets/Customer.json";
 // import CustomerData from "../assets/customers.json"
 import PageHeader from "../components/PageHeader";
 import { ImQrcode } from "react-icons/im";
