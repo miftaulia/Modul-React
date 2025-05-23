@@ -1,6 +1,8 @@
 import { useState } from "react";
-import customerData from "../assets/customers.json";
+// import customerData from "../assets/customers.json";
+import customerData from "../assets/customers.json"
 import PageHeader from "../components/PageHeader";
+import { ImQrcode } from "react-icons/im";
 
 export default function Customer() {
   const [customers, setCustomers] = useState(customerData);
