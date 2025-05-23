@@ -1,5 +1,6 @@
 import { useState } from "react";
-import orderData from "../assets/orders.json";
+// import orderData from "../assets/orders.json";
+import orderData from "../assets/Orders.json"
 import PageHeader from "../components/PageHeader";
 
 export default function Order() {
