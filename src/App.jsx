@@ -3,16 +3,7 @@ import React, { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import GuestLayout from "./layouts/GuestLayouts";
 import GuestLayouts from "./layouts/GuestLayouts";
-// import Dashboard from './pages/Dashboard'
-// import Order from './pages/Order'
-// import Customer from './pages/Customer'
-// import NotFound from './pages/NotFound'
-// import Error from "./pages/Error"
-// import MainLayout from "./layouts/MainLayout"
-// import AuthLayout from "./layouts/AuthLayouts"
-// import Login from "./pages/Auth/Login"
-// import Register from "./pages/Auth/Register"
-// import Forgot from "./pages/Auth/Forgot"
+
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Customer = React.lazy(() => import("./pages/Customer"));
 const Order = React.lazy(() => import("./pages/Order"));
@@ -28,6 +19,8 @@ const About = React.lazy(() => import("./pages/Guest/About"));
 const GuestDashboard = React.lazy(() => import("./pages/Guest/GuestDashboard"));
 const Produk = React.lazy(() => import("./pages/Guest/Produk"));
 const Testi = React.lazy(() => import("./pages/Guest/Testi"));
+const Products = React.lazy(() => import("./pages/Products"));
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
 
 function App() {
   return (
@@ -38,6 +31,8 @@ function App() {
           <Route path="/orders" element={<Order />} />
           <Route path="/customers" element={<Customer />} />
           <Route path="/users" element={<User />} />
+          <Route path="products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} />
 
           <Route path="/error/:code" element={<Error />} />
         </Route>
@@ -58,7 +53,6 @@ function App() {
             </GuestLayout>
           }
         />
-        
 
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -1,7 +1,7 @@
-import { AiOutlineUserAdd } from "react-icons/ai"; 
+import { AiOutlineUserAdd } from "react-icons/ai";
 import { BiDonateHeart } from "react-icons/bi";
 import { BiCartAdd } from "react-icons/bi";
-import { MdDashboard } from "react-icons/md";
+import { MdDashboard, MdFastfood } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 export default function ListMenu() {
@@ -41,9 +41,15 @@ export default function ListMenu() {
         </li>
         <li>
           <NavLink id="menu-5" to="/users" className={menuClass}>
-            <AiOutlineUserAdd className="me-4 text-xl"/>
+            <AiOutlineUserAdd className="me-4 text-xl" />
             <span>User</span>
           </NavLink>
+          <li>
+            <NavLink id="menu-6" to="/products" className={menuClass}>
+              <MdFastfood className="mr-4 text-xl" />
+              Products
+            </NavLink>
+          </li>
         </li>
       </ul>
     </div>
